@@ -13,6 +13,7 @@ internal typealias RawJSON = [String: AnyObject]
 internal enum ScottsError: ErrorType {
     case JSONFail
     case JSONNotString
+    case APIFAiled
 }
 
 internal struct JSON {
@@ -39,6 +40,9 @@ internal struct JSON {
             if let stringValue = object as? String, data = stringValue.dataUsingEncoding(NSUTF8StringEncoding)  {
                 self.data = try NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments)
             } else {
+                /**
+                *  If object is an array - this happens
+                */
                 self.data = object
             }
             
