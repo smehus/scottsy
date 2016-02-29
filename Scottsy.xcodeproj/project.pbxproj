@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6508A0BB1C83D1C2007F02C2 /* JSONTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508A0BA1C83D1C2007F02C2 /* JSONTransformer.swift */; };
+		6508A0BD1C83D2A4007F02C2 /* AnyJSONTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508A0BC1C83D2A4007F02C2 /* AnyJSONTransformer.swift */; };
+		656A45B91C59AD6500471681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A45B81C59AD6500471681 /* AppDelegate.swift */; };
+		656A45BB1C59AD6500471681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A45BA1C59AD6500471681 /* ViewController.swift */; };
+		656A45BE1C59AD6500471681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656A45BC1C59AD6500471681 /* Main.storyboard */; };
+		656A45C01C59AD6500471681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656A45BF1C59AD6500471681 /* Assets.xcassets */; };
+		656A45C31C59AD6500471681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656A45C11C59AD6500471681 /* LaunchScreen.storyboard */; };
+		656A45CE1C59AD6500471681 /* ScottsyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A45CD1C59AD6500471681 /* ScottsyTests.swift */; };
+		656A45D91C59AD6500471681 /* ScottsyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A45D81C59AD6500471681 /* ScottsyUITests.swift */; };
+		656A45E71C59B6A300471681 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A45E61C59B6A300471681 /* JSON.swift */; };
+		656E53481C6E1B7C004D8D93 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E53471C6E1B7C004D8D93 /* Item.swift */; };
+		656E534B1C6E1BB0004D8D93 /* JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E534A1C6E1BB0004D8D93 /* JSONSerializable.swift */; };
+		656E534E1C6E1C82004D8D93 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E534D1C6E1C82004D8D93 /* Response.swift */; };
+		656E53511C80936A004D8D93 /* Array+JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E53501C80936A004D8D93 /* Array+JSONSerializable.swift */; };
+		AB3380BBCC790A935119A469 /* Pods_Scottsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCC090C41FC117DDBCE72CC /* Pods_Scottsy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		656A45CA1C59AD6500471681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656A45AD1C59AD6500471681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656A45B41C59AD6500471681;
+			remoteInfo = Scottsy;
+		};
+		656A45D51C59AD6500471681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656A45AD1C59AD6500471681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656A45B41C59AD6500471681;
+			remoteInfo = Scottsy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FCC090C41FC117DDBCE72CC /* Pods_Scottsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scottsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C370C4D465523C185332A7 /* Pods-Scottsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scottsy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scottsy/Pods-Scottsy.debug.xcconfig"; sourceTree = "<group>"; };
+		6508A0BA1C83D1C2007F02C2 /* JSONTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTransformer.swift; sourceTree = "<group>"; };
+		6508A0BC1C83D2A4007F02C2 /* AnyJSONTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyJSONTransformer.swift; sourceTree = "<group>"; };
+		656A45B51C59AD6500471681 /* Scottsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scottsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		656A45B81C59AD6500471681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		656A45BA1C59AD6500471681 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		656A45BD1C59AD6500471681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		656A45BF1C59AD6500471681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		656A45C21C59AD6500471681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		656A45C41C59AD6500471681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656A45C91C59AD6500471681 /* ScottsyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScottsyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		656A45CD1C59AD6500471681 /* ScottsyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottsyTests.swift; sourceTree = "<group>"; };
+		656A45CF1C59AD6500471681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656A45D41C59AD6500471681 /* ScottsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScottsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		656A45D81C59AD6500471681 /* ScottsyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottsyUITests.swift; sourceTree = "<group>"; };
+		656A45DA1C59AD6500471681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656A45E61C59B6A300471681 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		656E53471C6E1B7C004D8D93 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		656E534A1C6E1BB0004D8D93 /* JSONSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializable.swift; sourceTree = "<group>"; };
+		656E534D1C6E1C82004D8D93 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		656E53501C80936A004D8D93 /* Array+JSONSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+JSONSerializable.swift"; sourceTree = "<group>"; };
+		E99FCE8A1DFF71DE9054B269 /* Pods-Scottsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scottsy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scottsy/Pods-Scottsy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		656A45B21C59AD6500471681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3380BBCC790A935119A469 /* Pods_Scottsy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656A45C61C59AD6500471681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656A45D11C59AD6500471681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		656A45AC1C59AD6500471681 = {
+			isa = PBXGroup;
+			children = (
+				656A45B71C59AD6500471681 /* Scottsy */,
+				656A45CC1C59AD6500471681 /* ScottsyTests */,
+				656A45D71C59AD6500471681 /* ScottsyUITests */,
+				656A45B61C59AD6500471681 /* Products */,
+				A977F3D80DA0E71069735BAA /* Pods */,
+				FFC448E07387208513DF894F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		656A45B61C59AD6500471681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				656A45B51C59AD6500471681 /* Scottsy.app */,
+				656A45C91C59AD6500471681 /* ScottsyTests.xctest */,
+				656A45D41C59AD6500471681 /* ScottsyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		656A45B71C59AD6500471681 /* Scottsy */ = {
+			isa = PBXGroup;
+			children = (
+				656E534F1C809352004D8D93 /* Extensions */,
+				656E534C1C6E1C71004D8D93 /* Networking */,
+				656E53491C6E1B9F004D8D93 /* Protocols */,
+				656E53461C6E1B6A004D8D93 /* Models */,
+				656A45B81C59AD6500471681 /* AppDelegate.swift */,
+				656A45BA1C59AD6500471681 /* ViewController.swift */,
+				656A45BC1C59AD6500471681 /* Main.storyboard */,
+				656A45BF1C59AD6500471681 /* Assets.xcassets */,
+				656A45C11C59AD6500471681 /* LaunchScreen.storyboard */,
+				656A45C41C59AD6500471681 /* Info.plist */,
+			);
+			path = Scottsy;
+			sourceTree = "<group>";
+		};
+		656A45CC1C59AD6500471681 /* ScottsyTests */ = {
+			isa = PBXGroup;
+			children = (
+				656A45CD1C59AD6500471681 /* ScottsyTests.swift */,
+				656A45CF1C59AD6500471681 /* Info.plist */,
+			);
+			path = ScottsyTests;
+			sourceTree = "<group>";
+		};
+		656A45D71C59AD6500471681 /* ScottsyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				656A45D81C59AD6500471681 /* ScottsyUITests.swift */,
+				656A45DA1C59AD6500471681 /* Info.plist */,
+			);
+			path = ScottsyUITests;
+			sourceTree = "<group>";
+		};
+		656E53461C6E1B6A004D8D93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				656E53471C6E1B7C004D8D93 /* Item.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		656E53491C6E1B9F004D8D93 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				656E534A1C6E1BB0004D8D93 /* JSONSerializable.swift */,
+				6508A0BA1C83D1C2007F02C2 /* JSONTransformer.swift */,
+				6508A0BC1C83D2A4007F02C2 /* AnyJSONTransformer.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		656E534C1C6E1C71004D8D93 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				656A45E61C59B6A300471681 /* JSON.swift */,
+				656E534D1C6E1C82004D8D93 /* Response.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		656E534F1C809352004D8D93 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				656E53501C80936A004D8D93 /* Array+JSONSerializable.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		A977F3D80DA0E71069735BAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63C370C4D465523C185332A7 /* Pods-Scottsy.debug.xcconfig */,
+				E99FCE8A1DFF71DE9054B269 /* Pods-Scottsy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFC448E07387208513DF894F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FCC090C41FC117DDBCE72CC /* Pods_Scottsy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		656A45B41C59AD6500471681 /* Scottsy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656A45DD1C59AD6500471681 /* Build configuration list for PBXNativeTarget "Scottsy" */;
+			buildPhases = (
+				4DA3A6FB3771E02EBD0AAB05 /* Check Pods Manifest.lock */,
+				656A45B11C59AD6500471681 /* Sources */,
+				656A45B21C59AD6500471681 /* Frameworks */,
+				656A45B31C59AD6500471681 /* Resources */,
+				06B8212F4BC9191C042927E3 /* Embed Pods Frameworks */,
+				0BBA9FE9B1E2CD462F9442D2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scottsy;
+			productName = Scottsy;
+			productReference = 656A45B51C59AD6500471681 /* Scottsy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		656A45C81C59AD6500471681 /* ScottsyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656A45E01C59AD6500471681 /* Build configuration list for PBXNativeTarget "ScottsyTests" */;
+			buildPhases = (
+				656A45C51C59AD6500471681 /* Sources */,
+				656A45C61C59AD6500471681 /* Frameworks */,
+				656A45C71C59AD6500471681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656A45CB1C59AD6500471681 /* PBXTargetDependency */,
+			);
+			name = ScottsyTests;
+			productName = ScottsyTests;
+			productReference = 656A45C91C59AD6500471681 /* ScottsyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		656A45D31C59AD6500471681 /* ScottsyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656A45E31C59AD6500471681 /* Build configuration list for PBXNativeTarget "ScottsyUITests" */;
+			buildPhases = (
+				656A45D01C59AD6500471681 /* Sources */,
+				656A45D11C59AD6500471681 /* Frameworks */,
+				656A45D21C59AD6500471681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656A45D61C59AD6500471681 /* PBXTargetDependency */,
+			);
+			name = ScottsyUITests;
+			productName = ScottsyUITests;
+			productReference = 656A45D41C59AD6500471681 /* ScottsyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		656A45AD1C59AD6500471681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Scott Mehus";
+				TargetAttributes = {
+					656A45B41C59AD6500471681 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					656A45C81C59AD6500471681 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 656A45B41C59AD6500471681;
+					};
+					656A45D31C59AD6500471681 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 656A45B41C59AD6500471681;
+					};
+				};
+			};
+			buildConfigurationList = 656A45B01C59AD6500471681 /* Build configuration list for PBXProject "Scottsy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 656A45AC1C59AD6500471681;
+			productRefGroup = 656A45B61C59AD6500471681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				656A45B41C59AD6500471681 /* Scottsy */,
+				656A45C81C59AD6500471681 /* ScottsyTests */,
+				656A45D31C59AD6500471681 /* ScottsyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		656A45B31C59AD6500471681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656A45C31C59AD6500471681 /* LaunchScreen.storyboard in Resources */,
+				656A45C01C59AD6500471681 /* Assets.xcassets in Resources */,
+				656A45BE1C59AD6500471681 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656A45C71C59AD6500471681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656A45D21C59AD6500471681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B8212F4BC9191C042927E3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scottsy/Pods-Scottsy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BBA9FE9B1E2CD462F9442D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scottsy/Pods-Scottsy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA3A6FB3771E02EBD0AAB05 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		656A45B11C59AD6500471681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656E53481C6E1B7C004D8D93 /* Item.swift in Sources */,
+				656A45E71C59B6A300471681 /* JSON.swift in Sources */,
+				656E53511C80936A004D8D93 /* Array+JSONSerializable.swift in Sources */,
+				656E534B1C6E1BB0004D8D93 /* JSONSerializable.swift in Sources */,
+				656A45BB1C59AD6500471681 /* ViewController.swift in Sources */,
+				6508A0BB1C83D1C2007F02C2 /* JSONTransformer.swift in Sources */,
+				656E534E1C6E1C82004D8D93 /* Response.swift in Sources */,
+				6508A0BD1C83D2A4007F02C2 /* AnyJSONTransformer.swift in Sources */,
+				656A45B91C59AD6500471681 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656A45C51C59AD6500471681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656A45CE1C59AD6500471681 /* ScottsyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656A45D01C59AD6500471681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656A45D91C59AD6500471681 /* ScottsyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		656A45CB1C59AD6500471681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656A45B41C59AD6500471681 /* Scottsy */;
+			targetProxy = 656A45CA1C59AD6500471681 /* PBXContainerItemProxy */;
+		};
+		656A45D61C59AD6500471681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656A45B41C59AD6500471681 /* Scottsy */;
+			targetProxy = 656A45D51C59AD6500471681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		656A45BC1C59AD6500471681 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				656A45BD1C59AD6500471681 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		656A45C11C59AD6500471681 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				656A45C21C59AD6500471681 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		656A45DB1C59AD6500471681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		656A45DC1C59AD6500471681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		656A45DE1C59AD6500471681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C370C4D465523C185332A7 /* Pods-Scottsy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = Scottsy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scott.Scottsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		656A45DF1C59AD6500471681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99FCE8A1DFF71DE9054B269 /* Pods-Scottsy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = Scottsy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scott.Scottsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		656A45E11C59AD6500471681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScottsyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scott.ScottsyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scottsy.app/Scottsy";
+			};
+			name = Debug;
+		};
+		656A45E21C59AD6500471681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScottsyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scott.ScottsyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scottsy.app/Scottsy";
+			};
+			name = Release;
+		};
+		656A45E41C59AD6500471681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScottsyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scott.ScottsyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Scottsy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		656A45E51C59AD6500471681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScottsyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scott.ScottsyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Scottsy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		656A45B01C59AD6500471681 /* Build configuration list for PBXProject "Scottsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656A45DB1C59AD6500471681 /* Debug */,
+				656A45DC1C59AD6500471681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656A45DD1C59AD6500471681 /* Build configuration list for PBXNativeTarget "Scottsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656A45DE1C59AD6500471681 /* Debug */,
+				656A45DF1C59AD6500471681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656A45E01C59AD6500471681 /* Build configuration list for PBXNativeTarget "ScottsyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656A45E11C59AD6500471681 /* Debug */,
+				656A45E21C59AD6500471681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656A45E31C59AD6500471681 /* Build configuration list for PBXNativeTarget "ScottsyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656A45E41C59AD6500471681 /* Debug */,
+				656A45E51C59AD6500471681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 656A45AD1C59AD6500471681 /* Project object */;
+}
