@@ -5,6 +5,7 @@ use_frameworks!
 
 target 'Scottsy' do
 pod 'Alamofire', '~> 3.1'
+pod 'ReactiveCocoa', '~> 4.0'
 
 end
 
