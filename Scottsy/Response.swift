@@ -14,8 +14,8 @@ internal class Response<T where T: JSONSerializable> {
     
     required init(json: JSON) {
         
-        if let count: Int = json.valueForKey("count"),
-            page: RawJSON = json.valueForKey("pagination"),
+        if let _: Int = json.valueForKey("count"),
+            _: RawJSON = json.valueForKey("pagination"),
             results: JSON = json.jsonValueFor("results") {
 
                 
