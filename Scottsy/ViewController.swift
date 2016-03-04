@@ -17,11 +17,6 @@ internal final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let config = NSBundle.mainBundle().infoDictionary!["Configuration"] {
-            print("CONFIG \(config)")
-        }
-
-        
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
         viewModel.loadData()
             .producer.take(1)

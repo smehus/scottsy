@@ -28,6 +28,7 @@ internal struct JSON {
         do {
             json = try NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments)
             self.data = json
+            print("DATA \(self.data)")
         } catch {
             print("JSON FAILE")
             throw ScottsError.JSONFail

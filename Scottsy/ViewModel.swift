@@ -17,11 +17,14 @@ internal final class ViewModel {
     func loadData() -> SignalProducer<(), ScottsError> {
         return SignalProducer<(), ScottsError>({ (observer, _) in
             RequestStore<[Item]>.requestWithSearch("").on(next: { [weak self] res in
+                
                 self?.dataCollection = res
                 observer.sendNext()
                 observer.sendCompleted()
+                
                 }, failed: { error in
                     
+                    observer.sendFailed(ScottsError.APIFAiled)
                     
             }).start()
         })
