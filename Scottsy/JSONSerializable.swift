@@ -6,7 +6,7 @@
 //  Copyright © 2016 Scott Mehus. All rights reserved.
 //
 
-internal protocol JSONSerializable {
+public protocol JSONSerializable {
     
     init(json: JSON) throws
 }

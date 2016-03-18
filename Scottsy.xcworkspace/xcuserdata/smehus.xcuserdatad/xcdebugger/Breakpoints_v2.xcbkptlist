@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Scottsy/Item.swift"
-            timestampString = "478404069.988705"
+            timestampString = "479998472.082621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "init(json:)"
             landmarkType = "5">
          </BreakpointContent>

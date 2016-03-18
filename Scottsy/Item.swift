@@ -6,6 +6,8 @@
 //  Copyright © 2016 Scott Mehus. All rights reserved.
 //
 
+import ScottsyKit
+
 internal struct Item: JSONSerializable {
     
     let category_id: Int

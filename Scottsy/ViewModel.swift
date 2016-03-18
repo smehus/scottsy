@@ -9,6 +9,7 @@
 import Foundation
 import ReactiveCocoa
 import Alamofire
+import ScottsyKit
 
 internal final class ViewModel {
     

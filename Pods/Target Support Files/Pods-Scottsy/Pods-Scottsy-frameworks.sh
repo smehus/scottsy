@@ -88,6 +88,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Scottsy/ReactiveCocoa.framework"
   install_framework "Pods-Scottsy/Result.framework"
 fi
+if [[ "$CONFIGURATION" == "Staging" ]]; then
+  install_framework "Pods-Scottsy/Alamofire.framework"
+  install_framework "Pods-Scottsy/ReactiveCocoa.framework"
+  install_framework "Pods-Scottsy/Result.framework"
+fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Scottsy/Alamofire.framework"
   install_framework "Pods-Scottsy/ReactiveCocoa.framework"

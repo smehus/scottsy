@@ -6,6 +6,7 @@
 //  Copyright © 2016 Scott Mehus. All rights reserved.
 //
 
+import ScottsyKit
 import UIKit
 
 internal final class ViewController: UIViewController {

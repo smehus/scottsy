@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6508A0BB1C83D1C2007F02C2 /* JSONTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508A0BA1C83D1C2007F02C2 /* JSONTransformer.swift */; };
-		6508A0BD1C83D2A4007F02C2 /* AnyJSONTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508A0BC1C83D2A4007F02C2 /* AnyJSONTransformer.swift */; };
 		6508A0BF1C83EA71007F02C2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508A0BE1C83EA71007F02C2 /* ViewModel.swift */; };
-		6508A0C11C87279A007F02C2 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508A0C01C87279A007F02C2 /* ResponseError.swift */; };
 		6508A0CF1C887488007F02C2 /* Configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6508A0CE1C887488007F02C2 /* Configurations.plist */; };
 		656A45B91C59AD6500471681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A45B81C59AD6500471681 /* AppDelegate.swift */; };
 		656A45BB1C59AD6500471681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A45BA1C59AD6500471681 /* ViewController.swift */; };
@@ -19,12 +16,20 @@
 		656A45C31C59AD6500471681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656A45C11C59AD6500471681 /* LaunchScreen.storyboard */; };
 		656A45CE1C59AD6500471681 /* ScottsyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A45CD1C59AD6500471681 /* ScottsyTests.swift */; };
 		656A45D91C59AD6500471681 /* ScottsyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A45D81C59AD6500471681 /* ScottsyUITests.swift */; };
-		656A45E71C59B6A300471681 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A45E61C59B6A300471681 /* JSON.swift */; };
 		656E53481C6E1B7C004D8D93 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E53471C6E1B7C004D8D93 /* Item.swift */; };
-		656E534B1C6E1BB0004D8D93 /* JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E534A1C6E1BB0004D8D93 /* JSONSerializable.swift */; };
-		656E534E1C6E1C82004D8D93 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E534D1C6E1C82004D8D93 /* Response.swift */; };
 		656E53511C80936A004D8D93 /* Array+JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E53501C80936A004D8D93 /* Array+JSONSerializable.swift */; };
-		657467271C89B47E00423652 /* RequestStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657467261C89B47E00423652 /* RequestStore.swift */; };
+		65E63B411C9C3029002CDEC3 /* ScottsyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E63B401C9C3029002CDEC3 /* ScottsyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E63B481C9C3029002CDEC3 /* ScottsyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E63B3E1C9C3029002CDEC3 /* ScottsyKit.framework */; };
+		65E63B4F1C9C3029002CDEC3 /* ScottsyKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E63B4E1C9C3029002CDEC3 /* ScottsyKitTests.swift */; };
+		65E63B531C9C3029002CDEC3 /* ScottsyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E63B3E1C9C3029002CDEC3 /* ScottsyKit.framework */; };
+		65E63B541C9C3029002CDEC3 /* ScottsyKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65E63B3E1C9C3029002CDEC3 /* ScottsyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65E63B5E1C9C3042002CDEC3 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A45E61C59B6A300471681 /* JSON.swift */; };
+		65E63B5F1C9C3042002CDEC3 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E534D1C6E1C82004D8D93 /* Response.swift */; };
+		65E63B601C9C3042002CDEC3 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508A0C01C87279A007F02C2 /* ResponseError.swift */; };
+		65E63B611C9C3042002CDEC3 /* RequestStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657467261C89B47E00423652 /* RequestStore.swift */; };
+		65E63B621C9C30A3002CDEC3 /* JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E534A1C6E1BB0004D8D93 /* JSONSerializable.swift */; };
+		65E63B631C9C30A3002CDEC3 /* JSONTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508A0BA1C83D1C2007F02C2 /* JSONTransformer.swift */; };
+		65E63B641C9C30A3002CDEC3 /* AnyJSONTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508A0BC1C83D2A4007F02C2 /* AnyJSONTransformer.swift */; };
 		AB3380BBCC790A935119A469 /* Pods_Scottsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCC090C41FC117DDBCE72CC /* Pods_Scottsy.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +48,46 @@
 			remoteGlobalIDString = 656A45B41C59AD6500471681;
 			remoteInfo = Scottsy;
 		};
+		65E63B491C9C3029002CDEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656A45AD1C59AD6500471681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E63B3D1C9C3029002CDEC3;
+			remoteInfo = ScottsyKit;
+		};
+		65E63B4B1C9C3029002CDEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656A45AD1C59AD6500471681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656A45B41C59AD6500471681;
+			remoteInfo = Scottsy;
+		};
+		65E63B511C9C3029002CDEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656A45AD1C59AD6500471681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E63B3D1C9C3029002CDEC3;
+			remoteInfo = ScottsyKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65E63B5C1C9C3029002CDEC3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				65E63B541C9C3029002CDEC3 /* ScottsyKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4FCC090C41FC117DDBCE72CC /* Pods_Scottsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scottsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1DECAA51B19B76AEE60E47 /* Pods-Scottsy.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scottsy.staging.xcconfig"; path = "Pods/Target Support Files/Pods-Scottsy/Pods-Scottsy.staging.xcconfig"; sourceTree = "<group>"; };
 		63C370C4D465523C185332A7 /* Pods-Scottsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scottsy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scottsy/Pods-Scottsy.debug.xcconfig"; sourceTree = "<group>"; };
 		6508A0BA1C83D1C2007F02C2 /* JSONTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTransformer.swift; sourceTree = "<group>"; };
 		6508A0BC1C83D2A4007F02C2 /* AnyJSONTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyJSONTransformer.swift; sourceTree = "<group>"; };
@@ -72,6 +113,12 @@
 		656E534D1C6E1C82004D8D93 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		656E53501C80936A004D8D93 /* Array+JSONSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+JSONSerializable.swift"; sourceTree = "<group>"; };
 		657467261C89B47E00423652 /* RequestStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestStore.swift; sourceTree = "<group>"; };
+		65E63B3E1C9C3029002CDEC3 /* ScottsyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScottsyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E63B401C9C3029002CDEC3 /* ScottsyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScottsyKit.h; sourceTree = "<group>"; };
+		65E63B421C9C3029002CDEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E63B471C9C3029002CDEC3 /* ScottsyKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScottsyKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E63B4E1C9C3029002CDEC3 /* ScottsyKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottsyKitTests.swift; sourceTree = "<group>"; };
+		65E63B501C9C3029002CDEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E99FCE8A1DFF71DE9054B269 /* Pods-Scottsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scottsy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scottsy/Pods-Scottsy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB3380BBCC790A935119A469 /* Pods_Scottsy.framework in Frameworks */,
+				65E63B531C9C3029002CDEC3 /* ScottsyKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +146,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65E63B3A1C9C3029002CDEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E63B441C9C3029002CDEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E63B481C9C3029002CDEC3 /* ScottsyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -107,6 +170,8 @@
 				656A45B71C59AD6500471681 /* Scottsy */,
 				656A45CC1C59AD6500471681 /* ScottsyTests */,
 				656A45D71C59AD6500471681 /* ScottsyUITests */,
+				65E63B3F1C9C3029002CDEC3 /* ScottsyKit */,
+				65E63B4D1C9C3029002CDEC3 /* ScottsyKitTests */,
 				656A45B61C59AD6500471681 /* Products */,
 				A977F3D80DA0E71069735BAA /* Pods */,
 				FFC448E07387208513DF894F /* Frameworks */,
@@ -119,6 +184,8 @@
 				656A45B51C59AD6500471681 /* Scottsy.app */,
 				656A45C91C59AD6500471681 /* ScottsyTests.xctest */,
 				656A45D41C59AD6500471681 /* ScottsyUITests.xctest */,
+				65E63B3E1C9C3029002CDEC3 /* ScottsyKit.framework */,
+				65E63B471C9C3029002CDEC3 /* ScottsyKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,8 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				656E534F1C809352004D8D93 /* Extensions */,
-				656E534C1C6E1C71004D8D93 /* Networking */,
-				656E53491C6E1B9F004D8D93 /* Protocols */,
 				656E53461C6E1B6A004D8D93 /* Models */,
 				656A45B81C59AD6500471681 /* AppDelegate.swift */,
 				656A45BA1C59AD6500471681 /* ViewController.swift */,
@@ -176,6 +241,7 @@
 				6508A0BC1C83D2A4007F02C2 /* AnyJSONTransformer.swift */,
 			);
 			name = Protocols;
+			path = ../Scottsy;
 			sourceTree = "<group>";
 		};
 		656E534C1C6E1C71004D8D93 /* Networking */ = {
@@ -187,6 +253,7 @@
 				657467261C89B47E00423652 /* RequestStore.swift */,
 			);
 			name = Networking;
+			path = ../Scottsy;
 			sourceTree = "<group>";
 		};
 		656E534F1C809352004D8D93 /* Extensions */ = {
@@ -197,11 +264,32 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
+		65E63B3F1C9C3029002CDEC3 /* ScottsyKit */ = {
+			isa = PBXGroup;
+			children = (
+				656E53491C6E1B9F004D8D93 /* Protocols */,
+				656E534C1C6E1C71004D8D93 /* Networking */,
+				65E63B401C9C3029002CDEC3 /* ScottsyKit.h */,
+				65E63B421C9C3029002CDEC3 /* Info.plist */,
+			);
+			path = ScottsyKit;
+			sourceTree = "<group>";
+		};
+		65E63B4D1C9C3029002CDEC3 /* ScottsyKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				65E63B4E1C9C3029002CDEC3 /* ScottsyKitTests.swift */,
+				65E63B501C9C3029002CDEC3 /* Info.plist */,
+			);
+			path = ScottsyKitTests;
+			sourceTree = "<group>";
+		};
 		A977F3D80DA0E71069735BAA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				63C370C4D465523C185332A7 /* Pods-Scottsy.debug.xcconfig */,
 				E99FCE8A1DFF71DE9054B269 /* Pods-Scottsy.release.xcconfig */,
+				5B1DECAA51B19B76AEE60E47 /* Pods-Scottsy.staging.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -216,6 +304,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		65E63B3B1C9C3029002CDEC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E63B411C9C3029002CDEC3 /* ScottsyKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		656A45B41C59AD6500471681 /* Scottsy */ = {
 			isa = PBXNativeTarget;
@@ -227,10 +326,12 @@
 				656A45B31C59AD6500471681 /* Resources */,
 				06B8212F4BC9191C042927E3 /* Embed Pods Frameworks */,
 				0BBA9FE9B1E2CD462F9442D2 /* Copy Pods Resources */,
+				65E63B5C1C9C3029002CDEC3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				65E63B521C9C3029002CDEC3 /* PBXTargetDependency */,
 			);
 			name = Scottsy;
 			productName = Scottsy;
@@ -273,13 +374,50 @@
 			productReference = 656A45D41C59AD6500471681 /* ScottsyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		65E63B3D1C9C3029002CDEC3 /* ScottsyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E63B5B1C9C3029002CDEC3 /* Build configuration list for PBXNativeTarget "ScottsyKit" */;
+			buildPhases = (
+				65E63B391C9C3029002CDEC3 /* Sources */,
+				65E63B3A1C9C3029002CDEC3 /* Frameworks */,
+				65E63B3B1C9C3029002CDEC3 /* Headers */,
+				65E63B3C1C9C3029002CDEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScottsyKit;
+			productName = ScottsyKit;
+			productReference = 65E63B3E1C9C3029002CDEC3 /* ScottsyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65E63B461C9C3029002CDEC3 /* ScottsyKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E63B5D1C9C3029002CDEC3 /* Build configuration list for PBXNativeTarget "ScottsyKitTests" */;
+			buildPhases = (
+				65E63B431C9C3029002CDEC3 /* Sources */,
+				65E63B441C9C3029002CDEC3 /* Frameworks */,
+				65E63B451C9C3029002CDEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E63B4A1C9C3029002CDEC3 /* PBXTargetDependency */,
+				65E63B4C1C9C3029002CDEC3 /* PBXTargetDependency */,
+			);
+			name = ScottsyKitTests;
+			productName = ScottsyKitTests;
+			productReference = 65E63B471C9C3029002CDEC3 /* ScottsyKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		656A45AD1C59AD6500471681 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Scott Mehus";
 				TargetAttributes = {
@@ -292,6 +430,13 @@
 					};
 					656A45D31C59AD6500471681 = {
 						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 656A45B41C59AD6500471681;
+					};
+					65E63B3D1C9C3029002CDEC3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					65E63B461C9C3029002CDEC3 = {
+						CreatedOnToolsVersion = 7.2;
 						TestTargetID = 656A45B41C59AD6500471681;
 					};
 				};
@@ -312,6 +457,8 @@
 				656A45B41C59AD6500471681 /* Scottsy */,
 				656A45C81C59AD6500471681 /* ScottsyTests */,
 				656A45D31C59AD6500471681 /* ScottsyUITests */,
+				65E63B3D1C9C3029002CDEC3 /* ScottsyKit */,
+				65E63B461C9C3029002CDEC3 /* ScottsyKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -336,6 +483,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		656A45D21C59AD6500471681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E63B3C1C9C3029002CDEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E63B451C9C3029002CDEC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,16 +560,9 @@
 			files = (
 				6508A0BF1C83EA71007F02C2 /* ViewModel.swift in Sources */,
 				656E53481C6E1B7C004D8D93 /* Item.swift in Sources */,
-				656A45E71C59B6A300471681 /* JSON.swift in Sources */,
 				656E53511C80936A004D8D93 /* Array+JSONSerializable.swift in Sources */,
-				656E534B1C6E1BB0004D8D93 /* JSONSerializable.swift in Sources */,
-				6508A0C11C87279A007F02C2 /* ResponseError.swift in Sources */,
 				656A45BB1C59AD6500471681 /* ViewController.swift in Sources */,
-				6508A0BB1C83D1C2007F02C2 /* JSONTransformer.swift in Sources */,
-				656E534E1C6E1C82004D8D93 /* Response.swift in Sources */,
-				6508A0BD1C83D2A4007F02C2 /* AnyJSONTransformer.swift in Sources */,
 				656A45B91C59AD6500471681 /* AppDelegate.swift in Sources */,
-				657467271C89B47E00423652 /* RequestStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +582,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65E63B391C9C3029002CDEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E63B601C9C3042002CDEC3 /* ResponseError.swift in Sources */,
+				65E63B641C9C30A3002CDEC3 /* AnyJSONTransformer.swift in Sources */,
+				65E63B5F1C9C3042002CDEC3 /* Response.swift in Sources */,
+				65E63B621C9C30A3002CDEC3 /* JSONSerializable.swift in Sources */,
+				65E63B5E1C9C3042002CDEC3 /* JSON.swift in Sources */,
+				65E63B611C9C3042002CDEC3 /* RequestStore.swift in Sources */,
+				65E63B631C9C30A3002CDEC3 /* JSONTransformer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E63B431C9C3029002CDEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E63B4F1C9C3029002CDEC3 /* ScottsyKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -440,6 +616,21 @@
 			isa = PBXTargetDependency;
 			target = 656A45B41C59AD6500471681 /* Scottsy */;
 			targetProxy = 656A45D51C59AD6500471681 /* PBXContainerItemProxy */;
+		};
+		65E63B4A1C9C3029002CDEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E63B3D1C9C3029002CDEC3 /* ScottsyKit */;
+			targetProxy = 65E63B491C9C3029002CDEC3 /* PBXContainerItemProxy */;
+		};
+		65E63B4C1C9C3029002CDEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656A45B41C59AD6500471681 /* Scottsy */;
+			targetProxy = 65E63B4B1C9C3029002CDEC3 /* PBXContainerItemProxy */;
+		};
+		65E63B521C9C3029002CDEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E63B3D1C9C3029002CDEC3 /* ScottsyKit */;
+			targetProxy = 65E63B511C9C3029002CDEC3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -551,6 +742,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				INFOPLIST_FILE = Scottsy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scott.Scottsy;
@@ -564,6 +756,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				INFOPLIST_FILE = Scottsy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scott.Scottsy;
@@ -666,10 +859,11 @@
 		};
 		657467231C88782C00423652 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63C370C4D465523C185332A7 /* Pods-Scottsy.debug.xcconfig */;
+			baseConfigurationReference = 5B1DECAA51B19B76AEE60E47 /* Pods-Scottsy.staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				INFOPLIST_FILE = Scottsy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scott.Scottsy;
@@ -700,6 +894,113 @@
 				USES_XCTRUNNER = YES;
 			};
 			name = Staging;
+		};
+		65E63B551C9C3029002CDEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScottsyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scott.ScottsyKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65E63B561C9C3029002CDEC3 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ScottsyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scott.ScottsyKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Staging;
+		};
+		65E63B571C9C3029002CDEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ScottsyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scott.ScottsyKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65E63B581C9C3029002CDEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScottsyKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scott.ScottsyKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scottsy.app/Scottsy";
+			};
+			name = Debug;
+		};
+		65E63B591C9C3029002CDEC3 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScottsyKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scott.ScottsyKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scottsy.app/Scottsy";
+			};
+			name = Staging;
+		};
+		65E63B5A1C9C3029002CDEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScottsyKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scott.ScottsyKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scottsy.app/Scottsy";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -740,6 +1041,26 @@
 				656A45E41C59AD6500471681 /* Debug */,
 				657467251C88782C00423652 /* Staging */,
 				656A45E51C59AD6500471681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E63B5B1C9C3029002CDEC3 /* Build configuration list for PBXNativeTarget "ScottsyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E63B551C9C3029002CDEC3 /* Debug */,
+				65E63B561C9C3029002CDEC3 /* Staging */,
+				65E63B571C9C3029002CDEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E63B5D1C9C3029002CDEC3 /* Build configuration list for PBXNativeTarget "ScottsyKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E63B581C9C3029002CDEC3 /* Debug */,
+				65E63B591C9C3029002CDEC3 /* Staging */,
+				65E63B5A1C9C3029002CDEC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

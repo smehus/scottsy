@@ -8,13 +8,13 @@
 
 import Foundation
 
-internal struct ResponseError: JSONSerializable, ErrorType {
+public struct ResponseError: JSONSerializable, ErrorType {
     
-    init() {
+    public init() {
         
     }
     
-    init(json: JSON) throws {
+    public init(json: JSON) throws {
         
     }
     

@@ -8,12 +8,12 @@
 
 import UIKit
 
-internal class Response<T where T: JSONSerializable> {
+public class Response<T where T: JSONSerializable> {
     
     private(set) var data: T?
     private(set) var error: ResponseError?
     
-    required init(json: JSON, error: NSError?) {
+    public required init(json: JSON, error: NSError?) {
         
         if let _: Int = json.valueForKey("count"),
             _: RawJSON = json.valueForKey("pagination"),

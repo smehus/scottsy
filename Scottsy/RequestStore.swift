@@ -16,16 +16,16 @@ internal struct APIConstants {
     static let Categories = "\(baseURL)\("taxonomy/categories")"
 }
 
-internal final class RequestStore<T where T: JSONSerializable> {
+public final class RequestStore<T where T: JSONSerializable> {
     
-    static func requestForCategories() {
+    public static func requestForCategories() {
         
         Alamofire.request(.GET, APIConstants.Categories, parameters: nil).response {request, response, data, error in
             
         }
     }
     
-    static func requestWithSearch(search: String) -> SignalProducer<T, ResponseError> {
+    public static func requestWithSearch(search: String) -> SignalProducer<T, ResponseError> {
         return SignalProducer<T, ResponseError>({ (observer, _) in
             
             let params = ["limit" : "20",

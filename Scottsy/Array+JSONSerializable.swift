@@ -6,11 +6,12 @@
 //  Copyright © 2016 Scott Mehus. All rights reserved.
 //
 
+import ScottsyKit
 import Foundation
 
 extension Array: JSONSerializable {
     
-    init(json: JSON) throws {
+    public init(json: JSON) throws {
         
         guard let ElementType = Element.self as? JSONSerializable.Type else {
             throw ScottsError.JSONFail

@@ -48,6 +48,16 @@
                ReferencedContainer = "container:Scottsy.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "65E63B461C9C3029002CDEC3"
+               BuildableName = "ScottsyKitTests.xctest"
+               BlueprintName = "ScottsyKitTests"
+               ReferencedContainer = "container:Scottsy.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

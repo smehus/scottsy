@@ -8,21 +8,21 @@
 
 import Foundation
 
-internal typealias RawJSON = [String: AnyObject]
+public typealias RawJSON = [String: AnyObject]
 
-internal enum ScottsError: ErrorType {
+public enum ScottsError: ErrorType {
     case JSONFail
     case JSONNotString
     case APIFAiled
 }
 
-internal struct JSON {
+public struct JSON {
     
-    typealias Generator = AnyGenerator<JSON>
+    public typealias Generator = AnyGenerator<JSON>
     
     private var data: AnyObject?
     
-    init(data: NSData) throws {
+    public init(data: NSData) throws {
         
         var json: AnyObject
         do {
@@ -35,7 +35,7 @@ internal struct JSON {
         }
     }
     
-    init(object: AnyObject) throws {
+   public init(object: AnyObject) throws {
          
         do {
             if let stringValue = object as? String, data = stringValue.dataUsingEncoding(NSUTF8StringEncoding)  {
@@ -65,7 +65,7 @@ internal struct JSON {
         return data as? [RawJSON]
     }
     
-    func valueForKey<T>(key: String) -> T? {
+    public func valueForKey<T>(key: String) -> T? {
         let rawValue = internalDictionary[key] ?? RawJSON()
         if let obj = rawValue as? T {
             
@@ -76,7 +76,7 @@ internal struct JSON {
         return nil
     }
     
-    func jsonValueFor(key: String) -> JSON? {
+    public func jsonValueFor(key: String) -> JSON? {
         return self.valueFor(key, transformer: jsonTransformer({ (value) -> JSON? in
             do {
                 return try JSON(object: value)
@@ -88,7 +88,7 @@ internal struct JSON {
     }
     
 
-    func valueFor<U: JSONTransformer>(key: String, transformer: U) -> U.TransformType {
+    public func valueFor<U: JSONTransformer>(key: String, transformer: U) -> U.TransformType {
         let rawValue = internalDictionary[key] ?? RawJSON()
         return transformer.transform(rawValue)
     }
@@ -96,7 +96,7 @@ internal struct JSON {
 
 extension JSON: SequenceType {
     
-    func generate() -> Generator {
+    public func generate() -> Generator {
         var index = 0
         return anyGenerator({ () -> JSON? in
             guard let arr = self.internalArray else {

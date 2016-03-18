@@ -8,7 +8,7 @@
 
 import Foundation
 
-internal protocol JSONTransformer {
+public protocol JSONTransformer {
     
     typealias TransformType
     
